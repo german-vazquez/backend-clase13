@@ -43,7 +43,7 @@ public class Main {
 
             ResultSet rs=statement.executeQuery(SQL_SELECT);
             while (rs.next()){
-                System.out.println("id: " + rs.getInt(1)+ "- Saldo: " + rs.getDouble(2));
+                System.out.println("id: " + rs.getInt(1)+ "- Saldo: " + rs.getDouble(4));
             }
 
 
